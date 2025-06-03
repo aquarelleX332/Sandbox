@@ -1,3 +1,16 @@
+"""
+Ce code décrit le comportement oscillatoire
+de 3 réactifs engagés dans 4 réactions.
+
+Par exemple:
+***********
+A + B → C        (1)
+C → A + B        (2)
+2A → B           (3)
+B → 2A           (4)
+""""
+
+
 module CRNNModule
 
 using Flux
